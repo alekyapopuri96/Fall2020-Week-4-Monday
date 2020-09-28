@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <title>HTML Form </title>
 </head>
+<style>
+    input{
+        margin-bottom: 25px;
+    }
+</style>
 <body>
 <h3>
     Form Design Exercise:
 </h3>
+
 <p style="font-family: Helvetica;font-size: medium">
     Disregarding the style of the page: <br>
     <a href="https://forms.gle/qjz8MKR4YXWkWCVLA">https://forms.gle/qjz8MKR4YXWkWCVLA</a>
@@ -16,5 +22,63 @@
     Try to replecate the format of the form in the page.<br>
     Make use of "Label", "Input" and "Table".
 </p>
+<h1>Individual Project</h1>
+<p>Choose a topic, and research interest for the individual visualization project.</p>
+
+<form>
+
+    <label for="Email-address">Email Address:</label><br>
+    <input type="text" id="Email-address" required><br>
+
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" ><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" ><br>
+    <label for="res-int">Research Interest (list at least 3)</label><br>
+    <textarea id="res-int" required ></textarea><br>
+    <label for="protitle">Project Title - (e.g. income vs education US Census) *</label><br>
+    <input type="text" id="protitle" ><br>
+    <h3>Top Skills *</h3>
+    <input type="checkbox" id="SQL" name="SQL" value="SQL">
+    <label for="SQL"> SQL </label><br>
+    <input type="checkbox" id="Python programming" name="Python programming" value="Python programming">
+    <label for="Python programming"> Python programming </label><br>
+    <input type="checkbox" id="Matlab" name="Matlab" value="Matlab">
+    <label for="Matlab"> Matlab </label><br>
+    <input type="checkbox" id="D3js and Javascript" name="D3js and Javascript" value="D3js and Javascript">
+    <label for="D3js and Javascript"> D3js and Javascript </label><br>
+    <input type="checkbox" id="c# VB.net" name="c# VB.net" value="c# VB.net">
+    <label for="c# VB.net"> c# VB.net </label><br>
+    <input type="checkbox" id="PHP" name="PHP" value="PHP">
+    <label for="PHP"> PHP </label><br>
+    <input type="checkbox" id="Node.JS" name="Node.JS" value="Node.JS">
+    <label for="Node.JS"> Node.JS </label><br>
+    <input type="checkbox" id="Web tools" name="Web tools" value="Web tools">
+    <label for="Web tools"> Web Designing tools(e.g. Wordpress) </label><br>
+    <input type="checkbox" id="HTML and CSS" name="HTML and CSS" value="HTML and CSS">
+    <label for="HTML and CSS"> HTML and CSS </label><br>
+    <input type="checkbox" id="Excel" name="Excel" value="Excel">
+    <label for="Excel"> Excel </label><br>
+    <input type="checkbox" id="PowerBI" name="PowerBI" value="PowerBI">
+    <label for="PowerBI"> PowerBI </label><br>
+    <input type="checkbox" id="Tableau" name="Tableau" value="Tableau">
+    <label for="Tableau"> Tableau </label><br>
+    <input type="checkbox" id="other" name="other" value="other">
+    <label for="other"> other: </label>
+    <input type="text" id="other"> <br>
+
+    <label for="suggestions">Suggestions or questions:</label><br>
+    <textarea id="suggestions" ></textarea><br>
+
+
+    <input type="checkbox" id="responses" name="responses" value="responses">
+    <label for="responses"> Send me a copy of my responses. </label><br>
+
+    <input type="submit"  ><br>
+
+
+
+
+</form>
 </body>
 </html>
